@@ -1,0 +1,1285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.btnsub:hover, .btnsub:active {
+	background-color: #0062cc!important;
+}
+
+.nav-link {
+	text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .3s;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.nav-link:hover {
+	 background-size: 100% 2px;
+}
+
+.nav-link-single-page a {
+	color: black!important;
+}
+
+.single-page-background {
+  position: relative;
+  background-image: url("https://i.ibb.co/ky4hsX8/Layer442copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  -webkit-clip-path: polygon( 0 0, 0 90%,  100% 100%, 100% 10%);
+  display: block;
+}
+
+.mimiatures {
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin: 10px;
+}
+
+.heading {
+ font-family: "Lato", sans-serif; font-size: 60px; font-weight: normal; color: #494949;
+ padding-bottom: 4vh;
+ font-weight: 100;
+}
+
+h5 {
+  color: white;
+  font-weight: 100;
+	font-family: "Lato", sans-serif;
+	line-height: 1.2;
+}
+
+#img_1:hover, #img_2:hover, #img_3:hover, #img_4:hover {
+border: 6px solid black;
+}
+
+.info_box:hover {
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	background-color: #008eea;
+}
+
+#btn_about {
+	color: black;
+	border-style: solid;
+  border-radius: 0;
+  border-width: 2px;
+  border-color: rgb(93, 93, 93);
+  background-color: rgb(255, 255, 255);
+	margin-top: 90px;
+	width: 242px!important;
+	height: 63px;
+	font-size: 20px;
+	font-family: "Lato";
+	line-height: 1.2;
+	text-align: center;
+	font-weight: 100;
+}
+
+
+#btn_about:hover {
+  color: white!important;
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+/*--------------------------01 header area-----------------------------------------------------*/
+
+.header {
+  background-image: url("https://i.ibb.co/dQy1YcQ/Layer432.png");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  display: block;
+}
+
+
+.navbar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar-toggler {
+	background-color: inherit!important;
+}
+
+.first {
+  padding-top: 25vh;
+}
+
+.header .bigtext {
+  font-size: 39px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.header .smalltext {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.667;
+}
+
+.btndownload {
+  margin-top: 90px;
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(253, 167, 140, 0);
+  width: 242px!important;
+  height: 63px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 100;
+}
+
+.btndownload:hover {
+	background-color: #e2e6ea!important;
+	color: black!important;
+}
+
+.btndownload:active {
+    background-color: #dae0e5!important;
+}
+
+#btnsimple {
+  border-color:navy!important;
+}
+
+.buttonup {
+width:88px!important;
+height:118px!important;
+position:fixed!important;
+bottom:20px!important;
+right:50px!important;
+}
+
+@media (max-width: 320px)  {
+
+
+		.header {
+
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    background-size: cover;
+	    min-height: 1125px;
+	  }
+
+		.navbar {
+			padding-bottom: 0;
+			padding-top: 0;
+		}
+
+		.navbar-brand img {
+			height: 20px!important;
+			width: auto!important;
+		}
+
+
+
+			.navbar-toggler:focus, .navbar-toggler:hover {
+			background-color: inherit!important;
+			border-color: rgba(255, 255, 255, 0)!important;
+			outline: none!important;
+		}
+
+	  .first {
+	    padding-top: 0;
+	  }
+
+	  .header .bigtext {
+	    font-size: 21px;
+	    margin-top: 20px;
+	  }
+
+	  .header .smalltext {
+	    font-size: 12px;
+	    margin: auto;
+	    width: auto;
+	  }
+
+	  .btndownload {
+	    margin-top: 50px;
+	    width: 234px;
+	    height: 59px;
+	  }
+
+	  .header img {
+	    height: 400px;
+	    width: auto;
+	    max-width: 250px;
+	    margin-top: 60px;
+	  }
+
+	.navbar-brand {
+	  vertical-align: middle;
+	  margin: 0;
+	  padding-bottom: 60px!important;
+	}
+
+		.navbar-dark .navbar-toggler{
+			border-color: rgba(255,255,255,0)!important;
+		}
+
+		.scrollTop {
+			display: none!important;
+			z-index:0!important;
+		}
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+
+  .header {
+    min-height: 1700px;
+  }
+
+  .navbar-brand {
+    vertical-align: middle;
+    margin: 0;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    vertical-align: middle;
+  }
+
+  .first {
+    padding-top: 0;
+  }
+
+  .btndownload {
+    margin-top: 50px;
+  margin-bottom: 80px;
+  }
+
+		.buttonup {
+		display: none!important;
+	}
+
+		.scrollTop {
+		display: none!important;
+		z-index:0!important;
+	}
+
+	.navbar-toggler {
+		background-color: inherit!important;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+.btndownload {
+	margin-bottom: 60px;
+  }
+
+ .first {
+  padding-top: 5vh;
+ }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+	.first {
+	 padding-top: 5vh;
+	}
+
+	.btndownload {
+		margin-bottom: 60px;
+		margin-left: 20vw;
+	  }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+	.navbar {
+		max-width: 560px;
+	}
+
+	.first {
+ 	 padding-top: 15vh;
+ 	}
+}
+
+/*-----------------------------------02 download -------------------------------------------------------------------------------------*/
+.download {
+  position: relative;
+  background-image: url("https://i.ibb.co/ky4hsX8/Layer442copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  z-index: 1;
+  padding-bottom: 30vh;
+  margin-top: -260px;
+  -webkit-clip-path: polygon( 0 0, 0 90%,  100% 100%, 100% 10%);
+  display: block;
+}
+
+.load {
+height: auto;
+padding-top: 25vh;
+}
+
+.bigtext {
+  font-size: 39px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: rgb(255, 248, 246);
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+.smalltext {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 248, 246);
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.Googlebtn, .Applebtn {
+  border-style: solid!important;
+  border-width: 2px!important;
+  border-color: rgb(255, 255, 255)!important;
+  background-color: rgba(253, 167, 140, 0)!important;
+  width: 372px!important;
+  height: 95px!important;
+  border-radius: 0px!important;
+  font-size: 30px!important;
+  font-family: "Lato", sans-serif!important;
+  font-weight: 100!important;
+  color: rgb(255, 255, 255)!important;
+  line-height: 1.2!important;
+  text-align: center!important;
+}
+
+.Googlebtn:hover, .Applebtn:hover {
+  background-color: #e2e6ea!important;
+	color: black!important;
+}
+
+.Googlebtn:active, .Applebtn:active {
+    background-color: #dae0e5!important;
+}
+
+.fa-android, .fa-apple {
+  padding-bottom: 12px;
+  padding-right: 36px;
+}
+
+.Applebtn {
+  margin-left: 60px!important;
+}
+
+@media (max-width: 320px) {
+
+	.download {
+		margin-top: -200px;
+		height: 400px;
+		background-image: url("https://i.ibb.co/JHfrFHh/bg02.png");
+		-webkit-clip-path: polygon( 0 0, 0 360px,  400px 400px, 400px 40px);
+
+	}
+
+	.load {
+		padding-top: 25%;
+	}
+
+	.bigtext {
+		font-size: 21px;
+	}
+
+	.smalltext {
+		font-size: 12px;
+	}
+
+	.Applebtn {
+		width: 200px!important;
+		height: 60px!important;
+		font-size: 16px!important;
+		margin-left: 0!important;
+		margin-top: 30px!important;
+	}
+
+	.Googlebtn {
+		width: 200px!important;
+		height: 60px!important;
+		font-size: 16px!important;
+	}
+
+	.fa-android, .fa-apple {
+		padding-bottom: 12px;
+		padding-right: 10px;
+	}
+}
+
+  @media (min-width: 321px) and (max-width: 519px) {
+
+		.Applebtn, .Googlebtn {
+			width: 200px!important;
+			height: 60px!important;
+			margin-left: 30px!important;
+			margin-top: 30px;
+			font-size: 16px!important;
+		}
+
+}
+
+@media (min-width: 520px) and (max-width: 576px) {
+
+	.Applebtn, .Googlebtn {
+ 		width: 300px;
+ 		height: 100px;
+ 		margin-left: 30px!important;
+ 		margin-top: 30px;
+ 	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+	.Applebtn, .Googlebtn {
+ 		margin-left: 30px!important;
+ 		margin-top: 30px;
+ 	}
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+	.Applebtn, .Googlebtn {
+ 		margin-left: 10vw!important;
+ 		margin-top: 30px;
+ 	}
+
+}
+
+/*----------------------03 feature ---------------------------------------------------------------------------------------*/
+
+.appfeature {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+}
+
+.apps {
+  vertical-align: middle;
+}
+
+.sometext {
+  font-size: 39px;
+  font-weight: 100;
+  color: rgb(52, 52, 52);
+  display: inline-block;
+  height: auto;
+  text-align: center;
+}
+
+.myimage:hover {
+	border: 1px solid white;
+	box-shadow: 2px 2px 2px 2px rgba(143,143,143,0.2);
+}
+
+@media (max-width: 320px) {
+
+  .appfeature {
+
+  }
+
+.apps {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.myimage {
+  margin-bottom: 0!important;
+}
+
+  .appscreen {
+    display: none;
+  }
+
+  .sometext {
+    font-size: 18px;
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+
+  .myimage {
+    width: 250px;
+    height: auto;
+    margin-left: 10vw;
+    margin-bottom: 50px;
+
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+	.myimage {
+    width: 250px;
+    height: auto;
+    margin-bottom: 50px;
+
+  }
+
+
+}
+/*-----------------04 why choose --------------------------------------------------------------------------------------------------------------*/
+
+.whychoose {
+  position: relative;
+  background-image: url("https://i.ibb.co/tpGSGB0/Layer434.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  z-index: 2;
+  display: block;
+  -webkit-clip-path: polygon( 0 0, 0 90%,  100% 100%, 100% 10%);
+  padding-bottom: 30vh;
+}
+
+.why {
+padding-top: 10vh;
+}
+
+.top {
+  padding-top: 30px;
+  color: white;
+}
+
+.low-row {
+  padding-top: 50px;
+}
+
+.top h3 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.top p {
+  font-size: 17px;
+  font-family: "Lato",sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.7;
+  font-weight: lighter;
+}
+
+.why img {
+display: block;
+}
+
+.why br {
+    margin: 10px 0;
+  }
+
+.whytext {
+  font-size: 39px;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+
+.whyttext {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 248, 246);
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+}
+
+@media (max-width: 320px) {
+
+  .whychoose {
+    background-size: cover;
+    -webkit-clip-path: polygon( 0 0, 0 1170px, 1300px 1300px, 1300px 130px);
+    background-image: url("https://i.ibb.co/Nn6LH93/bg04.png");
+    height: 1300px;
+
+    padding-bottom: 0;
+ }
+
+.why {
+vertical-align: middle!important;
+}
+
+.top-for-sm {
+  margin-top: 30px;
+}
+
+ .top {
+   text-align: center;
+   padding-top: 0;
+   vertical-align: middle;
+ }
+
+ .top p {
+   font-size: 10px;
+   text-align: center;
+   padding-top: 0;
+ }
+
+ .top h3 {
+   font-size: 10px;
+   font-family: "Lato";
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   text-transform: uppercase;
+   line-height: 1.2;
+   text-align: center;
+ }
+
+ .why br {
+
+ }
+
+ .whytext {
+   margin-top: 10px;
+   font-size: 21px;
+ }
+
+ .whyttext {
+   font-size: 12px;
+ }
+
+ .why img {
+   height: 350px;
+   width: auto;
+ }
+
+ .low-row {
+   padding-top: 20px;
+ }
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+
+    .whychoose {
+      background-size: cover;
+      -webkit-clip-path: polygon( 0 0, 0 1980px, 2200px 2200px, 2200px 220px);
+      background-image: url("https://i.ibb.co/Nn6LH93/bg04.png");
+			height: auto;
+      min-height: 2200px;
+   }
+
+.why {
+  padding-top: 30px;
+}
+   .why img {
+  padding-top: 0;
+   }
+  }
+
+	@media (min-width: 769px) and (max-width: 992px) {
+
+		.top p {
+		    font-size: 15px;
+        margin-left: 5vw;
+	}
+
+	.top img {
+		margin-top: 80px;
+		width: 210px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+	.top p, .top h3 {
+			margin-left: 5vw;
+ }
+
+ .top img {
+	 margin-top: 50px;
+ }
+
+}
+
+/*--------------05 app screen shorts ----------------------------------------------------------------------------------*/
+
+.appscrenshots {
+  background-color: rgb(255, 255, 255);
+}
+
+.screenshots {
+  height: auto;
+  font-size: 39px;
+  font-family: "Lato", sans-serif;
+  color: rgb(75, 75, 75);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 100;
+  vertical-align: middle;
+}
+
+.screenshots p {
+	font-size: 39px;
+	font-family: "Lato", sans-serif;
+	color: rgb(75, 75, 75);
+	line-height: 1.2;
+	text-align: center;
+	font-weight: 100;
+}
+
+#carouselExampleControls img {
+  display: block;
+  margin: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 40px!important;
+  height: 40px!important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%50000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e")!important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%50000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e")!important;
+}
+
+@media (max-width: 320px) {
+
+  .appscrenshots {
+    background-size: cover;
+    height: auto;
+
+    margin-bottom: 0;
+    margin-top: -70px;
+    z-index: 3;
+    padding-bottom: 30px;
+ }
+
+ .screenshots {
+   height: auto;
+   font-size: 21px;
+   vertical-align: middle;
+
+ }
+
+ .carousel-item img {
+   height: 350px;
+   width: auto;
+ }
+
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+   width: 20px;
+   height: 20px;
+ }
+}
+
+ @media (min-width: 321px) and (max-width: 576px) {
+
+   .appscrenshots {
+     margin-top: -70px;
+     margin-bottom: 30px;
+     z-index: 3;
+   }
+}
+
+/*----------------------06 video -----------------------------------------------------------------------------------------------*/
+
+.video {
+  position: relative;
+  background-image: url("https://i.ibb.co/80wn0rQ/Layer437.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  z-index: 4;
+  -webkit-clip-path: polygon( 0 0, 0 90%,  100% 100%, 100% 10%);
+  display: block;
+  padding-bottom: 30vh;
+  max-height: 800px;
+}
+
+ .vid {
+   padding-top: 15vh;
+ }
+
+.vid p {
+  padding-bottom: 5vh;
+  font-size: 39px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.vid iframe {
+  display: block;
+  height: 400px;
+  vertical-align: middle;
+}
+
+@media (max-width: 320px) {
+
+.video {
+    background-size: cover;
+    height: 400px;
+    -webkit-clip-path: polygon( 0 0, 0 360px,  400px 400px, 400px 40px);
+     background-image: url("https://i.ibb.co/xJCT3x5/bg06.png");
+
+     padding-bottom: 0;
+   }
+
+.vid {
+  padding-top: 7vh;
+  vertical-align: middle;
+}
+
+.vid .mx-auto {
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  height: auto!important;
+}
+   .vid p {
+     font-size: 21px;
+   }
+
+	.vid iframe {
+		height: 150px!important;
+		width: 300px!important;
+	}
+
+}
+
+/*---------------------------07 newsletter ----------------------------------------------------------------------------------------*/
+
+.newsletter {
+  display: block;
+  height: auto;
+  min-height: 1000px;
+}
+
+.news {
+vertical-align: middle;
+padding-top: 2%;
+}
+
+.news p {
+  font-size: 39px;
+  font-family: "Lato", sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 100;
+}
+
+.goodrow {
+  padding-top: 40px;
+}
+
+.formailform {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: rgb(27, 27, 27);
+  font-style: italic;
+  line-height: 1.667;
+}
+
+.onepic {
+  padding-top: 60px;
+}
+
+.btnsub {
+  border-style: solid!important;
+  border-radius: 0!important;
+  border-width: 2px!important;
+  border-color: rgb(93, 93, 93)!important;
+  background-color: rgb(255, 255, 255)!important;
+  color: black!important;
+  text-align: center!important;
+  width: 100px!important;
+  height: 38px!important;
+}
+
+.newform {
+  margin-top: 25px;
+}
+
+#inputMaild2 {
+  border-style: none;
+  border-bottom: 1px solid #000000;
+  width: 400px;
+}
+
+.btnsub:hover {
+  color: white!important;
+}
+
+@media (max-width: 320px) {
+
+.newsletter {
+    height: auto;
+    min-height: 0;
+
+   }
+
+.news {
+  margin-bottom: 5vh;
+}
+
+.news p {
+  font-size: 24px;
+}
+
+.formailform {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.onepic {
+  padding-top: 25px;
+}
+
+.onepic img {
+  width: 100%;
+  height: auto;
+}
+
+#inputMaild2 {
+  width: 250px;
+}
+
+.btnsub {
+margin-left: 100px;
+}
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+
+.newsletter {
+  height: auto;
+  min-height: 0;
+  margin-bottom: 20px;
+}
+
+.pics img {
+  width: 120px;
+  height: auto;
+}
+
+#inputMaild2 {
+    width: 300px;
+  }
+}
+/*----------------------------08 app support -----------------------------------------------------------------------------------------*/
+
+.support {
+  background-image: url("https://i.ibb.co/QMbB9qf/Layer440.png");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 5;
+  position: relative;
+  display: block;
+  -webkit-clip-path: polygon( 0 0, 0 90%,  100% 100%, 100% 10%);
+  padding-bottom: 25vh;
+}
+
+.sup {
+padding-top: 20vh;
+height: auto;
+}
+
+
+.center-pic {
+display: block;
+margin: auto;
+margin-bottom: 20px;
+
+}
+
+.sup h6 {
+  text-align: center;
+  font-size: 39px;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.sup p {
+    font-size: 18px;
+    font-family: "Lato",sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: center;
+}
+
+.content {
+  padding-top: 30px;
+}
+
+.btnsubmit:hover {
+	background-color: #e2e6ea!important;
+	color: black!important;
+}
+
+.btnsubmit:active {
+    background-color: #dae0e5!important;
+}
+
+.btnsubmit {
+  justify-content: center!important;
+  border-style: solid!important;
+  border-width: 2px!important;
+  border-color: rgb(255, 255, 255)!important;
+  background-color: rgba(255, 255, 255, 0)!important;
+  width: 150px!important;
+  height: 42px!important;
+  border-radius: 0px!important;
+  color: white!important;
+}
+
+.form-group input, .form-group textarea {
+background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+border-style: none;
+border-bottom: 1px solid #FFFFFF;
+border-radius: 0;
+text-align: left;
+}
+
+
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+  color: white;
+  font-weight: 100;
+  text-align: left;
+}
+
+#wp-live-chat-header {
+    background: rgba(255, 255, 255, 0)!important;
+	  box-shadow: none!important;
+	  border-radius: 0!important;
+	  justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 42px;
+    color: white;
+}
+
+@media (max-width: 320px) {
+
+.support {
+    height: 950px;
+    -webkit-clip-path: polygon( 0 0, 0 855px,  950px 950px, 950px 95px);
+    background-image: url("https://i.ibb.co/PZD4ZVr/bg08.png");
+    padding-bottom: 0;
+   }
+
+   .sup {
+   padding-top: 10vh;
+   }
+
+   .sup h6 {
+     font-size: 21px;
+   }
+
+  .btnsubmit {
+    width: 100px;
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0;
+    vertical-align: top;
+    line-height: 10px;
+  }
+
+	#wp-live-chat-header {
+    width: 100px;
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0;
+    vertical-align: top;
+    line-height: 10px;
+	}
+
+	.btnsub {
+	width: 100px;
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 10px;
+	margin-left: 80px;
+	}
+
+	#sub_form_btn {
+  width: 100px!important;
+  height: 30px!important;
+}
+
+	.wpcf7-mail-sent-ok {
+		padding: 3px!important;
+		font-size: 10px!important;
+	}
+
+  .sup p {
+      font-size: 10px;
+      line-height: 1.2;
+  }
+
+  .center-pic {
+      width: 15px;
+      height: auto;
+      margin-bottom: 10px;
+  }
+
+ .face_pic {
+   width: 100px;
+   height: auto!important;
+ }
+
+.contact_form {
+  margin-top: 40px;
+ }
+
+.chat_form {
+  margin-top: 20px;
+ }
+
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+
+  .support {
+      height: 1300px;
+      -webkit-clip-path: polygon( 0 0, 0 1170px,  1300px 1300px, 1300px 130px);
+      background-image: url("https://i.ibb.co/PZD4ZVr/bg08.png");
+      padding-bottom: 0;
+     }
+
+ .sup form {
+   margin-bottom: 100px;
+  }
+
+.face_pic {
+  width: 180px;
+  height: auto;
+ }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+	.face_pic {
+ 	 max-width: 180px;
+  }
+}
+
+	@media (min-width: 769px) and (max-width: 992px) {
+
+	.face_pic {
+		max-width: 180px;
+	}
+}
+
+/*--------------------------------------09 Footer------------------------------------------------------------------------------------------*/
+
+.footer {
+  display: block;
+  height: auto;
+}
+
+.foot {
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.foot p {
+  font-size: 10px;
+  font-family: "Myriad Pro";
+  color: rgb(44, 44, 44);
+  line-height: 3;
+  text-align: center;
+}
+
+.icons-row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-youtube, .fa-skype {
+  color: rgb(69, 69, 69);
+  line-height: 1.2;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-youtube:hover, .fa-skype:hover {
+  color: rgb(18, 18, 18);
+opacity: 90%;
+font-size: 35px;
+width: auto;
+}
+
+@media (max-width: 320px) {
+
+.footer {
+    height: auto;
+
+   }
+
+   .icons-row {
+     margin-top: 30px;
+     margin-bottom: 30px;
+   }
+
+   .foot {
+     z-index: 100;
+     margin-top: -30px;
+     vertical-align: middle;
+     padding-top: 0;
+     padding-bottom: 30px;
+
+   }
+
+   .fa-2x {
+     font-size: 16px!important;
+   }
+
+   .fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-youtube:hover, .fa-skype:hover {
+   font-size: 21px!important;
+ }
+
+ .foot img {
+   width: 90px;
+   height: auto;
+ }
+}

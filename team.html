@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<title>team</title>
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style_modal.css" >
+	<link rel="stylesheet" type="text/css" href="css/style_form.css">
+	<link rel="icon" href="images\favicon.ico" type="image/x-icon">
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+	<body>
+
+		<div class="container-fluid" style="height: 200px">
+	<div class="container">
+		<!--навигационная панель -->
+		<div class="col-12">
+				<nav class="navbar navbar-expand-lg">
+
+			<a class="navbar-brand col-6" href="index.html"><img src="images\logocopy.png">
+
+				</a>
+			<button class="navbar-toggler col-6" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+				 <div class="collapse navbar-collapse col-6" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					 <li class="nav-item active">
+						<a class="nav-link nav-link-single-page" href="index.html">FEATURES<span class="sr-only">(current)</span></a>
+					 </li>
+				<li class="nav-item">
+						<a class="nav-link" href="screenshorts.html">SCREENSHOTS</a>
+					 </li>
+					 <li class="nav-item">
+						<a class="nav-link nav-link-single-page" href="about.html">ABOUT</a>
+					 </li>
+					 <li class="nav-item">
+						<a class="nav-link nav-link-single-page" href="team.html">TEAM</a>
+					 </li>
+					 <li class="nav-item">
+						<a class="nav-link nav-link-single-page" href="contacts.html">CONTACTS</a>
+					 </li>
+				 </ul>
+				 </div>
+				</nav>
+	</div>
+			</div>
+		</div>
+
+<div class="container-fluid single-page-background" style="padding-top: 100px">
+    <div class="container">
+       <div class="row col-12 justify-content-center"><p class="heading">Our creative team</p></div>
+              <div class="row col-12">
+              <div class="col-4 mb-5">
+     <img src="images\pages\white_romb_with_shadow.png" style="position: relative; width: 460px; height: 460px; z-index: 12;">
+
+    <img id="set" src="https://i.ibb.co/FqKSK8T/Megan.png" style="position: absolute; clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); z-index: 13; margin-top:-280px; margin-left: 54px; top:320px;">
+              </div>
+    		  <div class="col-8" style="margin-top:50px; padding-left: 150px; padding-right: 0;"><img style="width:50px; margin-bottom: 20px;" src="images\pages\quotation_marks.png">
+    <p id="descript" style="display:inline-block; height: 90px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+
+    <p id="sign" style="color: white">Megan Snow, Company CEO</p>
+    																<img class="mimiatures" src="images\pages\Jimmy_Doe.png" id="img_1">
+    																<img class="mimiatures" src="images\pages\Johanna_Doe.png" id="img_2">
+    																<img class="mimiatures" src="images\pages\John_Doe.png" id="img_3">
+
+    <img class="mimiatures" src="images\pages\Megan.png" id="img_4">
+    		  </div>
+            </div>
+            </div>
+</div>
+
+            <script type="text/javascript">
+            window.onload = function () {
+
+            var a = document.getElementById('set');
+            var img_1 = document.getElementById('img_1');
+            var img_2 = document.getElementById('img_2');
+            var img_3 = document.getElementById('img_3');
+            var text = document.getElementById('sign');
+            var descript = document.getElementById('descript');
+
+            img_1.onclick = function() {
+            a.src="https://i.ibb.co/w6k28st/Jimmy-Doe.png";
+            text.innerHTML ='Jimmy Doe, Disigner';
+            descript.innerHTML ='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.';
+            }
+            img_2.onclick = function() {
+            a.src="https://i.ibb.co/2h3d4jr/Johanna-Doe.png";
+            text.innerHTML ='Johanna Doe, Disigner';
+            descript.innerHTML ='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus.';
+            }
+            img_3.onclick = function() {
+            a.src="https://i.ibb.co/ftYQDXg/John-Doe.png";
+            text.innerHTML ='John Doe, Meneger';
+            descript.innerHTML ='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.';
+            }
+            img_4.onclick = function() {
+            a.src="https://i.ibb.co/FqKSK8T/Megan.png";
+            text.innerHTML ='Megan Snow, Company SEO';
+            descript.innerHTML ='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis.';
+            }
+            }
+            </script>
+
+						<div class="container-fluid footer">
+						 <div class="container foot">
+						 <div class="col-lg-4 offset-lg-4 col-12 col-sm-8 offset-sm-2">
+							 <div class="d-flex justify-content-center"><a href="index.html"><img src="images\Footer\logocopy.png"></a></div>
+							 <div class="icons-row d-flex justify-content-between">
+								 <span class="fa-stack fa-2x">
+									<a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								 </span>
+								 <span class="fa-stack fa-2x">
+									<a href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								 </span>
+								 <span class="fa-stack fa-2x">
+									 <a href="http://www.natcollections.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+								 </span>
+								 <span class="fa-stack fa-2x">
+									 <a href="http://www.youtube.ru"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+								 </span>
+								 <span class="fa-stack fa-2x">
+									 <a href="http://www.skype.com"><i class="fa fa-skype" aria-hidden="true"></i></a>
+								 </span>
+							 </div>
+									<p>Copyrights © PSDFreebies.com | All rights reserved.</p>
+							 </div>
+						 </div>
+						</div>
+						<a href="#" title="Вернуться наверх" class="buttonup"></a>
+						<script type="text/javascript" src="js/anime.js"></script>
+</body>
+</html>

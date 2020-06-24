@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+
+     <title>Site</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/style_modal.css" >
+     <link rel="stylesheet" type="text/css" href="css/style_form.css">
+	 <link rel="stylesheet" type="text/css" href="css/style_screenshorts.css">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="images\favicon.ico" type="image/x-icon">
+
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+ 	</head>
+
+ 	<body>
+
+<!--01 header area--------------------------------------------------------------------------------------------------------------->
+	 <div class="container-fluid header">
+   <div class="container">
+
+  <a href="#" title="Вернуться наверх" class="buttonup"></a>
+
+
+   <!--навигационная панель -->
+   <div class="col-12">
+       <nav class="navbar navbar-expand-lg navbar-dark">
+
+     <a class="navbar-brand col-6" href="#"><img src="images\logo.png">
+
+		   </a>
+     <button class="navbar-toggler col-6 col-sm-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+        <div class="collapse navbar-collapse col-6" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+          <a class="nav-link" href="index.html">FEATURES<span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="screenshorts.html">SCREENSHOTS</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="team.html">TEAM</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="contacts.html">CONTACTS</a>
+         </li>
+       </ul>
+       </div>
+      </nav>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 offset-lg-0 col-10 offset-1 first">
+    <div class="bigtext">
+      <p>Showcase your App<br> with <b>PsdFreebies.com</b></p>
+    </div>
+    <div class="smalltext"><p>Proin scelerisque fringilla magna bibendum dui tempor<br>velnteger accumsan fermentum leousce viverraelnteger.</p>
+    </div>
+	  <a href="get.html">
+       <button type="button" class="btndownload col-10 offset-1 offset-sm-2 offset-lg-3">Download</button>
+	  </a>
+  </div>
+    <img class="col-lg-6 offset-lg-0 col-10 offset-1" src="images\mainbanner.png">
+</div>
+
+</div>
+</div>
+
+
+    	   <!--Модальное окно----------------------------------------------------------------------------------------------------->
+    	   <div class="modal-overlay" id="modal-overlay"></div>
+
+           <div class="modal" id="modal" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
+           <button class="close-button" id="close-button" title="Закрыть модальное окно">Close</button>
+           <div class="modal-guts" role="document">
+
+          <div class="cont">
+           <div class="cont phone-top row col-12 ml-0 mr-0"><img src="images\modal\face.png" class="col-5 pl-0 pr-0" style="width: 50px; height: auto;">
+    	    <div class="col-7"><p class="row col-12 mt-3 pl-4" style="color: black; font-size: 12px;">Johne Thoms</p>
+    	     <img src="images\modal\online.png" class="row col-12 pl-4 ml-0" style="width: 80px"></div></div>
+
+               <ul class="chat-container">
+
+              </ul>
+        <input class="reply-input" type="text" placeholder="Enter message">
+       </div>
+      </div>
+    </div>
+
+    <main >
+
+    	<!-- 02 download ------------------------------------------------------------------------------------->
+    <div class="container-fluid download">
+     <div class="container load">
+
+       <div class="col-12">
+         <p class="bigtext">Get it for Free</p>
+       </div>
+       <div class="col-12">
+         <p class="smalltext">Choose your native platform and download the app FREE!</p>
+       </div>
+       <div class="row first-row">
+         <div class="col-lg-4 offset-lg-2 col-10 offset-1"><a href="https://play.google.com/store"><button type="button" class="btn btn-light Googlebtn"><i class="fa fa-android" aria-hidden="true"></i>Google Play</button></a></div>
+         <div class="col-lg-4 offset-lg-0 col-10 offset-1"><a href="https://www.apple.com/ios/app-store/"><button type="button" class="btn btn-light Applebtn"><i class="fa fa-apple" aria-hidden="true"></i>IOS App Store</button></a></div>
+       </div>
+     </div>
+    </div>
+
+    <!--03 feature --------------------------------------------------------------------------------------->
+    <div class="container-fluid appfeature">
+    <div class="container apps">
+    <div class="row">
+    <div class="col-lg-6">
+      <div class="sometext col-12">Some Amazing Features</div>
+
+      <div class="row low-row">
+        <div class="col-lg-6 col-md-6">
+        <img class="mb-5 px-4 pb-4 col-lg-12 offset-lg-0 col-8 offset-2 myimage" src="images\feature01.png.">
+        <img class="px-4 pb-4 col-lg-12 offset-lg-0 col-8 offset-2 myimage" src="images\feature03.png.">
+      </div>
+      <div class="col-lg-6 col-md-6">
+          <img class="px-4 pb-4 mb-5 col-lg-12 offset-lg-0 col-8 offset-2 myimage" src="images\feature02.png.">
+          <img class="px-4 pb-4 col-lg-12 offset-lg-0 col-8 offset-2 myimage" src="images\feature04.png.">
+      </div>
+    </div>
+    </div>
+      <img class="col-lg-6 appscreen" src="images\Appscreens.png.">
+    </div>
+    </div>
+    </div>
+
+    <!--04 why choose --------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid whychoose">
+      <div class="container why col-10 offset-1">
+          <div class="col-lg-item whytext"><p>Why choose AppBies</p></div>
+          <div class="col-lg-item whyttext"><p>Choose your native platform and download App FREE</p></div>
+
+        <div class="row justify-content-center">
+
+        <div class="col-lg-4 col-md-4 top">
+             <div class="row justify-content-lg-end justify-content-center"><h3>CLEAN CODE AND RESPONSIVE</h3></div>
+    		<div class="row justify-content-lg-end justify-content-center"><p>Proin scelerisque fringilla magna bebendum<br>dui tempor velnteger assumsun fermentum<br>leousce viveraeelnteger</p></div>
+           <div class="row justify-content-lg-end justify-content-center low-row"><h3>CSS3 ANIMATIONS</h3></div>
+    		   <div class="row justify-content-lg-end justify-content-center"><p>Proin scelerisque fringilla magna bebendum<br>dui tempor velnteger assumsun fermentum<br>leousce viveraeelnteger</p></div>
+         <div class="row justify-content-lg-end justify-content-center low-row"><h3>GORGEOUS DESIGN</h3></div>
+    		 <div class="row justify-content-lg-end justify-content-center"><p>Proin scelerisque fringilla magna bebendum<br>dui tempor velnteger assumsun fermentum<br>leousce viveraeelnteger</p></div>
+       </div>
+            <div class="col-lg-4 col-md-4 top"><img class="mx-auto" src="images\Appscreen.png."></div>
+
+        <div class="col-lg-4 col-md-4 top top-for-sm">
+              <div class="row justify-content-lg-start justify-content-center"><h3>EASY TO CUSTOMIZE</h3></div>
+    		<div class="row justify-content-lg-start justify-content-center"><p>Proin scelerisque fringilla magna bebendum<br>dui tempor velnteger assumsun fermentum<br>leousce viveraeelnteger</p></div>
+            <div class="row justify-content-lg-start justify-content-center low-row"><h3>EXPRESS LAYOUT</h3></div>
+    		<div class="row justify-content-lg-start justify-content-center"><p>Proin scelerisque fringilla magna bebendum<br>dui tempor velnteger assumsun fermentum<br>leousce viveraeelnteger</p>                </div>
+            <div class="row justify-content-lg-start justify-content-center low-row"><h3>EASY TO USE</h3></div>
+          <div class="row justify-content-lg-start justify-content-center"><p>Proin scelerisque fringilla magna bebendum<br>dui tempor velnteger assumsun fermentum<br>leousce viveraeelnteger</p></div>
+     </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--05 app screen shorts ---------------------------------------------------------------------------------->
+    <div class="container-fluid appscrenshots">
+     <div class="container">
+       <div class="col-lg-4 offset-lg-4 col-md-12 col-sm-12 screenshots"><p>App Screenshots</p></div>
+
+       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="images\coll01.png" class="d-block" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="images\coll02.png" class="d-block" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="images\coll03.png" class="d-block" alt="...">
+           </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+       </div>
+       </div>
+    </div>
+
+    <!--06 video ------------------------------------------------------------------------------------------------>
+    <div class="container-fluid video">
+    <div class="container vid">
+      <p>App Video Showcase</p>
+
+    <iframe class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-12 d-block" src="https://www.youtube.com/embed/3vR_sc-FY5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <!--07 newsletter ----------------------------------------------------------------------------------------->
+    <div class="container-fluid newsletter">
+    <div class="container news">
+    	<div class="col-lg-item"><p>Download & Updates</p></div>
+      <div class="row goodrow">
+        <div class="col-lg-6 col-xl-6 col-12 pics">
+          <div class="row justify-content-between">
+          <img class="col-4 p-sm-4" src="images\Android.png">
+          <img class="col-4 p-sm-4" src="images\Apple.png">
+          <img class="col-4 p-sm-4" src="images\Windows.png">
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-12 pt-4 formailform">
+          <em>We promise, your mail never will be spam.</em>
+          <div class="row newform">
+
+            <form class="form-inline" name="name" onsubmit="return false;">
+             <div class="formgroup mx-sm-3 mb-2">
+              <label for="inputMaild2" class="sr-only">Email Adress</label>
+              <input type="email" class="form-control" id="inputMaild2" placeholder="Enter Email Adress" name="inputMaild2">
+             </div>
+             <button type="submit" class="btn btn-primary btnsub mb-2" id="but">SUBMIT</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <img class="col-12 onepic" src="images\gorizontalscreen.png">
+    </div>
+    </div>
+
+    <!--08 app support ------------------------------------------------------------------------------------------>
+    <div class="container-fluid support">
+      <div class="container sup">
+    <h6 class="mb-5">App Support</h6>
+       <div class="row align-items-center">
+        <div class="col-lg-4 col-12">
+
+					 <!-- Форма ------->
+
+    <form  style="margin-bottom: 40px">
+      <div class="form-group">
+        <label for="exampleFormControlInput1"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Fullname">
+
+        <label for="exampleFormControlInput2"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
+
+        <label for="exampleFormControlInput3"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Phone">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="4"></textarea>
+      </div>
+    	<button type="button" class="btn btn-light btnsubmit offset-4 offset-lg-0" onclick="alert('Сообщение отправлено')">SUBMIT</button>
+    </form>
+
+        </div>
+
+        <div class="col-lg-4 col-6 contact_form pt-3"> <!-- Контакты----->
+          <div class="row-flex flex-direction-column justify-content-between">
+
+          <div class="col-12"><img class="center-pic" src="images\App support\phone.png" onmouseover="this.classList.add('animate__animated', 'animate__slideInUp')">
+          <p>+7 800 200 00 05</p></div><br>
+          <div class="col-12"><img class="center-pic" src="images\App support\email.png" onmouseover="this.classList.add('animate__animated', 'animate__slideInUp')">
+          <p>info@psdfreebies.com</p></div><br>
+          <div class="col-12"><img class="center-pic" src="images\App support\periscope.png" onmouseover="this.classList.add('animate__animated', 'animate__slideInUp')">
+          <p>293567 Amedia st.,<br>Main Road, London.</p></div>
+        </div>
+        </div>
+
+      <div class="col-lg-4 col-6 chat_form" id="chat-form"> <!--Чат------------>
+          <p>ONLINE CHAT</p>
+          <img class="col-lg-6 offset-lg-3 col-12 center-pic face_pic" src="images\App support\face.png">
+          <div class="row">
+
+
+        <button type="button" class="btn btn-light btnsubmit col-auto mx-auto open-button" id="open-button">START CHAT</button>
+          </div>
+        </div>
+
+       </div>
+      </div>
+    </div>
+    </main>
+
+
+<!---09 Footer------------------------------------------------------------------------------------------->
+    <div class="container-fluid footer">
+     <div class="container foot">
+     <div class="col-lg-4 offset-lg-4 col-12 col-sm-8 offset-sm-2">
+    	 <div class="d-flex justify-content-center"><a href="#"><img src="images\Footer\logocopy.png"></a></div>
+       <div class="icons-row d-flex justify-content-between">
+         <span class="fa-stack fa-2x">
+          <a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+         </span>
+         <span class="fa-stack fa-2x">
+          <a href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+         </span>
+         <span class="fa-stack fa-2x">
+           <a href="http://www.natcollections.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+         </span>
+         <span class="fa-stack fa-2x">
+           <a href="http://www.youtube.ru"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+         </span>
+         <span class="fa-stack fa-2x">
+           <a href="http://www.skype.com"><i class="fa fa-skype" aria-hidden="true"></i></a>
+         </span>
+       </div>
+          <p>Copyrights © PSDFreebies.com | All rights reserved.</p>
+       </div>
+     </div>
+    </div>
+
+
+
+          <script type="text/javascript">
+        		var modal = document.querySelector("#modal"),
+        		    modalOverlay = document.querySelector("#modal-overlay"),
+        		    closeButton = document.querySelector("#close-button"),
+        		    openButton = document.querySelector("#open-button");
+
+        	closeButton.addEventListener("click", function() {
+        	  modal.setAttribute('style', 'display:none');
+        	  modalOverlay.setAttribute('style', 'display:none');
+        	});
+
+        	openButton.addEventListener("click", function() {
+        	  modal.setAttribute('style', 'display:block');
+        	  modalOverlay.setAttribute('style', 'display:block');
+        	});
+
+        	</script>
+
+        <script type="text/javascript">
+
+        var click=document.getElementById("but");
+
+        click.onclick=function() {
+        		var name = document.getElementById('inputMaild2');
+
+        		if(!name.value || name.value == "" || name.value == null)
+        		   {
+        			alert("Пустое значение!");
+        		  }
+        	      else
+        		      {
+        			alert('Ваш E-mail успешно отправлен');
+        		}
+        	}
+        </script>
+
+
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/anime.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+    	</body>
+    </html>
